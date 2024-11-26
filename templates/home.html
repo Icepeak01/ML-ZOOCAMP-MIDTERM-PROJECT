@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lendsqr Loan App</title>
+</head>
+<body>
+    <h1>Welcome to Lendsqr Loan App</h1>
+    <form action="/predict" method="post">
+        <!-- Gender -->
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender">
+            <option value="M">M</option>
+            <option value="F">F</option>
+        </select><br><br>
+
+        <!-- Type of Residence -->
+        <label for="type_of_residence">Type of Residence:</label><br>
+        <select id="type_of_residence" name="type_of_residence">
+            <option value="Rented Apartment">Rented Apartment</option>
+            <option value="Own House">Own House</option>
+            <option value="Parents Apartment">Parents Apartment</option>
+        </select><br><br>
+
+        <!-- Educational Attainment -->
+        <label for="educational_attainment">Educational Attainment:</label><br>
+        <select id="educational_attainment" name="educational_attainment">
+            <option value="BSc">BSc</option>
+            <option value="HND & Other Equivalent">HND & Other Equivalent</option>
+            <option value="Diploma">Diploma</option>
+            <option value="Diploma/School Cert">Diploma/School Cert</option>
+            <option value="MSc and Above">MSc and Above</option>
+            <option value="Others">Others</option>
+            <option value="School Cert">School Cert</option>
+        </select><br><br>
+
+        <!-- Employment Status -->
+        <label for="employment_status">Employment Status:</label><br>
+        <select id="employment_status" name="employment_status">
+            <option value="Employed">Employed</option>
+            <option value="Self Employed">Self Employed</option>
+            <option value="Others">Others</option>
+        </select><br><br>
+
+        <!-- Sector of Employment -->
+        <label for="sector_of_employment">Sector of Employment:</label><br>
+        <select id="sector_of_employment" name="sector_of_employment">
+            <option value="Others">Others</option>
+            <option value="Wholesale and Retail Trade">Wholesale and Retail Trade</option>
+            <option value="Manufacturing and Construction">Manufacturing and Construction</option>
+            <option value="Agriculture">Agriculture</option>
+            <option value="Education">Education</option>
+            <option value="Information Technology">Information Technology</option>
+            <option value="Transportation & Logistics">Transportation & Logistics</option>
+        </select><br><br>
+
+        <!-- Requested Amount -->
+        <label for="requested_amount">Requested Amount:</label><br>
+        <input type="number" id="requested_amount" name="requested_amount" required><br><br>
+
+        <!-- Purpose -->
+        <label for="purpose">Purpose:</label><br>
+        <select id="purpose" name="purpose">
+            <option value="Business">Business</option>
+            <option value="Medical">Medical</option>
+            <option value="Others">Others</option>
+            <option value="Personal">Personal</option>
+        </select><br><br>
+
+        <!-- Loan Request Day -->
+        <label for="loan_request_day">Loan Request Day:</label><br>
+        <select id="loan_request_day" name="loan_request_day">
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday</option>
+        </select><br><br>
+
+        <!-- Age -->
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <!-- Selfie ID Check -->
+        <label for="selfie_id_check">Selfie ID Check:</label><br>
+        <select id="selfie_id_check" name="selfie_id_check">
+            <option value="Successful">Successful</option>
+            <option value="Others">Others</option>
+        </select><br><br>
+
+        <!-- Number of Loans -->
+        <label for="loans">Number of Loans:</label><br>
+        <input type="number" id="loans" name="loans" required><br><br>
+
+        <!-- Number of Phone Numbers -->
+        <label for="phone_numbers">Number of Phone Numbers:</label><br>
+        <input type="number" id="phone_numbers" name="phone_numbers" required><br><br>
+
+        <!-- Mobile OS -->
+        <label for="mobile_os">Mobile OS:</label><br>
+        <select id="mobile_os" name="mobile_os">
+            <option value="android">android</option>
+            <option value="ios">ios</option>
+            <option value="Others">Others</option>
+        </select><br><br>
+
+        <!-- Income Range -->
+        <label for="income_range">Income Range:</label><br>
+        <select id="income_range" name="income_range">
+            <option value="Medium-Low(50000-99999)">Medium-Low(50000-99999)</option>
+            <option value="Low(0-49999)">Low(0-49999)</option>
+            <option value="Medium(10000-199999)">Medium(10000-199999)</option>
+            <option value="Very High(400000+)">Very High(400000+)</option>
+            <option value="High(200000-399999)">High(200000-399999)</option>
+        </select><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+absl-py
+email_validator
+filelock
+flake8
+Flask
+Flask-WTF
+Flask-Bootstrap==3.3.7.1
+flatbuffers
+gitdb
+GitPython
+google-pasta
+greenlet
+grpcio
+gunicorn
+httpcore
+httptools
+httpx
+hvplot
+hyperlink
+idna
+imagecodecs
+imageio
+imagesize
+imbalanced-learn
+importlib-metadata
+joblib
+mccabe
+numpy== 1.24.4
+pandas
+scikit-learn == 1.2.2
