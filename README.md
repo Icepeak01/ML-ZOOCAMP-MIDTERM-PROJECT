@@ -57,4 +57,11 @@ The application predicts whether a loan will be Paid or Not Paid based on the in
 ## Deployment
 The project is deployed on Render and can be accessed [here](https://ml-zoocamp-midterm-project.onrender.com)
 
+
+![image](https://github.com/user-attachments/assets/0ee8fd7d-0f3c-4889-aebc-abedb62cc687)
+
+![image](https://github.com/user-attachments/assets/48e4a4ff-af49-4ee6-9010-a22a66ab9d81)
+
+
+
 ![image](https://github.com/user-attachments/assets/3a52f247-45eb-4722-83b2-0610b979f6fa)
